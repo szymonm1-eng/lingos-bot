@@ -5,7 +5,7 @@ on:
   schedule:
     # 05:00 UTC = 07:00 czasu polskiego (w czasie letnim)
     # 06:00 UTC = 07:00 czasu polskiego (w czasie zimowym)
-    - cron: '0 5 * * *'
+    - cron: '7 5 * * *'
 
 jobs:
   run-lingos:
